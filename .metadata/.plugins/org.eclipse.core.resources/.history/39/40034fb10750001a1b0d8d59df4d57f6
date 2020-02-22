@@ -1,0 +1,16 @@
+package practicas;
+
+public class Ejercicio4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	/*Llena un arreglo con números ingresados por el usuario (el primer valor corresponde al largo 
+	 * del arreglo) y muéstralo.  Luego ordenalo de menor a mayor y muestra el resultado.
+	 * 
+	 */
+		
+		
+	}
+
+}

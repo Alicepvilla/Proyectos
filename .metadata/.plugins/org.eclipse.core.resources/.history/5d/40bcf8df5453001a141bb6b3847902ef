@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	String [] productos= new String [3];
+	
+	
+	System.out.println("Ingrese nombre producto");
+	Scanner entrada = new Scanner (System.in);
+	
+	
+		
+		
+		
+	}
+
+}

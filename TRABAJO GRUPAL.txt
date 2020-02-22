@@ -1,0 +1,91 @@
+CONVENCIONES DE PROGRAMACION
+
+son un conjunto de directrices para un lenguaje de programación concreto 
+que recomienda estilo, prácticas, y métodos de programación para cada aspecto de un programa escrito 
+en cada lenguaje. Estas convenciones normalmente comprenden gestión de archivos, sangría, comentarios, 
+declaraciones, sentencias, espaciado, convenciones de nombres, buenas prácticas de programación, 
+principios de programación, buenas prácticas de arquitectura, etc. 
+Estas son directrices para la calidad estructural del software. 
+Se recomienda encarecidamente a los programadores de software seguir estas directrices para ayudar 
+a mejorar la legibilidad de su código de fuente y un fácil mantenimiento del software. 
+Las convenciones pueden ser formalizadas en un conjunto documentado de reglas que un equipo entero o 
+toda la compañía pueden seguir, o puede ser tan informal como las prácticas habituales de programación de un individuo.​ 
+
+CONVENCION DE NOMBRES
+En Programación, una convención de nombres es un conjunto de reglas para la elección de la secuencia 
+de caracteres que se utilice para identificadores que denoten variables, tipos, funciones y otras 
+entidades en el código fuente y la documentación.
+
+Algunas de las razones para utilizar una convención de nombres (en lugar de permitir a los programadores 
+elegir cualquier secuencia de caracteres) son:
+
+- reducir el esfuerzo necesario para leer y entender el código fuente;
+- mejorar la apariencia del código fuente (por ejemplo, al no permitir nombres excesivamente largos 
+o abreviaturas poco claras).
+La elección de las convenciones de nombres puede ser un problema de enorme polémica, 
+donde los partidarios de cada convención consideran la suya como la mejor y las demás inferiores. 
+Coloquialmente, se dice que es una cuestión de dogma. Muchas empresas también han establecido su propio 
+conjunto de convenciones para satisfacer mejor sus intereses.
+
+EJEMPLO
+
+Por ejemplo, aunque la siguiente, es sintácticamente correcta, su propósito no es evidente.
+
+ a = b * c;
+ 
+Contraste esto con:
+
+SALARIO = horas_trabajadas * salario_por_hora;
+
+Clases: con la primera letra de cada palabra en mayúscula. Use palabras completas - evitar acrónimos y abreviaturas
+Variables: Los nombres de variable no deben comenzar con los caracteres guion bajo ( _ ) o el signo de dólar ( $ ), 
+aunque ambos se admiten 
+Constantes: Los nombres de las constantes se deben escribir en mayúsculas separadas por guiones bajos.
+
+
+COMENTARIOS
+
+
+En la programación de computadoras, un comentario es una construcción del lenguaje de programación 
+destinada a incrustar anotaciones legibles al programador en el código fuente de un Programa informático.
+Los comentarios son añadidos usualmente con el propósito de hacer el código fuente más fácil de entender 
+con vistas a su mantenimiento o reutilización. La sintaxis y reglas para los 
+comentarios varían y usualmente son definidas en la especificación del lenguaje de programación.
+
+Los comentarios pueden ser utilizados para resumir el código o para explicar la intención del programador. 
+Según esta escuela de pensamiento, re-explicar el código en lenguaje natural se considera superfluo y la necesidad 
+de volver a explicar el código puede ser un signo de que es demasiado complejo y debe ser reescrito.
+
+Los comentarios también pueden ser utilizados para explicar por qué un bloque de código no se ajusta a las 
+convenciones o las buenas prácticas. Esto está especialmente relacionado con proyectos de escaso tiempo de desarrollo, 
+o en la corrección de errores. Por ejemplo:
+
+// Se asigna una segunda variable debido a que se producen errores 
+// en el servidor cuando se reutilizan los datos del formulario. No se encontró documentación
+// sobre el comportamiento extraño del servidor, así que simplemente se codificó para resolverlo.
+
+Java
+//comentario de línea
+/*comentario de bloque*/
+/**comentario que será usado por javadoc*/
+
+ESTANDARES
+
+Los estándares de programación son convenciones que determinan la forma en la que codificaremos 
+nuestros programas según el lenguaje de programación que utilicemos.
+
+Criterios de un buen estándar de programación:
+
+Factor nemotécnico: Para que el programador pueda recordar el nombre de una variable fácilmente
+Factor sugestivo: Para que los programadores puedan leer y entender rápidamente, código escrito por otros programadores
+Consistencia: Para que el código sea legible, es importante utilizar las mismas convenciones en todo el programa.
+
+Ventajas de utilizar un estándar
+- Permite recordar y reconocer fácilmente el tipo de dato de cada variable
+- Permite a otros programadores, reconocer el uso y finalidad de las variables o funciones con solo leer el nombre
+- Facilita la definición del nombre de una variable o función, puesto que seguirá las reglas definidas por el 
+estándar de programación
+
+
+
+

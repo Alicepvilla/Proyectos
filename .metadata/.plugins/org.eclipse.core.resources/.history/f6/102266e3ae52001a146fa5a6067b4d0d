@@ -1,0 +1,12 @@
+
+public class NoPerecedero extends Productos {
+
+	private String tipo;
+	
+	public int calcular() {
+		return getCantidad() * getPrecio();
+		
+	}
+	
+	
+}

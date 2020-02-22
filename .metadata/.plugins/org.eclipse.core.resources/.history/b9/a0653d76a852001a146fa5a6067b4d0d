@@ -1,0 +1,36 @@
+
+public class Productos {
+
+	private String Producto;
+	private int Precio;
+	private int Cantidad;
+	
+	public Productos (String Producto, int Precio) {
+	this.Producto=Producto; this.Precio=Precio;
+	}
+	public String getProducto() {
+		return Producto;
+	}
+		
+	public int getCantidad() {
+		return Cantidad;
+	}
+	public void setCantidad(int cantidad) {
+		Cantidad = cantidad;
+	}
+	public void setProducto(String producto) {
+		Producto = producto;
+	}
+	public void setPrecio(int precio) {
+		Precio = precio;
+	}
+	public int getPrecio() {
+		return Precio;
+	}
+	public String toString() {
+		return Producto + "= " + Precio;
+	}
+	public int calcular( ) {
+		return Cantidad;
+	}
+}
